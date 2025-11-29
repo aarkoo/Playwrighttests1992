@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('asseret', async ({ page }) => {
+test('asserttest1', async ({ page }) => {
 
     await page.goto('https://www.npmjs.com/signup')
 
