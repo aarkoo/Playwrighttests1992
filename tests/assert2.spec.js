@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('assert2', async ({page})=>{
+test('asserttest2', async ({page})=>{
 
  await  page.goto('https://designsystem.digital.gov/components/radio-buttons/')
 

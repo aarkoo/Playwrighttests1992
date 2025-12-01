@@ -12,6 +12,8 @@ test('asserttest1', async ({ page }) => {
 
     await expect(c).toBeVisible();
 
+    
+
     const ele = await page.locator("._6126477b.db.center.tc.mt3.mb2.f5.fw6.hover-black-80undefined")
 
     await expect(ele).toBeEnabled();
